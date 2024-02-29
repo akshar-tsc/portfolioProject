@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+   
+}
+.nav{
+    padding-top: 10px;
+}
+a{
+    text-decoration: none;
+}
+.nav a{
+    color: black;
+    font-weight: bold;
+}
+.nav ul{
+    list-style: none;
+    display: flex;
+    padding-right: 20px;
+    font-size: 24px;
+}
+.links {
+  display: flex;
+  justify-content: right;
+}
+.links li{
+    padding: 10px 15px;
+}
+.about {
+    display: flex;
+    margin: 100px 0;
+    padding: 95px 180px;
+}
+.about-text{
+    padding-right: 70px;
+}
+.main-text{
+    font-size: 54px;
+    font-weight: bold;
+}
+.sub-text{
+    color: darkgray;
+    margin-top: 30px;
+    font-size: 24px;
+}
+
+.btn {
+    background: #ff6464;
+    padding: 20px 30px;
+    border: none;
+    border-radius: 3px;
+    margin-top: 40px;
+    color: white;
+    font-weight: bold;
+    width:250px;
+    font-size: larger;
+}
+.posts{
+    padding: 40px 180px;
+    background: #edf7fa;
+    height: 70vh;
+}
+.upper{
+    padding-top: ;
+    display: flex;
+    justify-content: space-between;
+}
+.recent {
+    color: #2d3048;
+    font-weight: bold;
+}
+.view a{
+    color: #21b3d2;
+}
+.card-container{
+    display: flex;
+    margin-top: 20px;
+}
+.card{
+    background: white;
+    padding: 20px 20px;
+    border-radius: 2px;
+    font-size: 20px;
+}
+.card1{
+    margin-right: 8px;
+}
+.card2{
+    margin-left: 8px;
+}
+.card-header{
+    font-size: 28px;
+    font-weight: bold;
+    padding: 30px 0;
+}
+.card-date {
+    color: darkgray;
+}
+.card-text{
+    color: #2a2d45;
+    padding-top: 20px;
+}
+.featured-works{
+    padding: 20px 180px;
+}
+.featured{
+    color: #2d3048;
+    font-weight: bold;
+}
+.work-posts {
+    display:flex;
+    padding: 20px 0;
+}
+.about-work{
+    margin-left: 16px;
+}
+hr{
+    background-color: #efefef;
+    border: none;
+    height: 1px;
+}
+h3{
+    color: #21243d;
+}
+.info {
+    display: flex;
+    padding: 20px 5px;
+}
+.year{
+    background: #142850;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px 6px;
+    border-radius: 16px;
+}
+.tag {
+    color: darkgray;
+    margin-left: 30px;
+}
+.work-text{
+    padding-top: 15px;
+}
+.works{
+    padding: 40px 0;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 60px 0;
+}
+.footer-links{
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+  
+}
+.footer-links img{
+    height: 30px;
+
+}
+.copyright{
+    padding: 20px 0;
+}
