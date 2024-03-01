@@ -8,7 +8,7 @@ body{
    
 }
 .nav{
-    padding-top: 10px;
+    margin-top: 30px;
 }
 a{
     text-decoration: none;
@@ -17,80 +17,89 @@ a{
     color: black;
     font-weight: bold;
 }
-.nav ul{
-    list-style: none;
-    display: flex;
-    padding-right: 20px;
-    font-size: 24px;
-}
+
 .links {
-  display: flex;
-  justify-content: right;
+   padding-left: 80%;
 }
-.links li{
-    padding: 10px 15px;
+.links a{
+    padding: 0 10px;
 }
-.about {
-    display: flex;
-    margin: 100px 0;
-    padding: 95px 180px;
+.about{
+    padding: 50px 180px;
+    margin-top: 85px;
 }
 .about-text{
-    padding-right: 70px;
+    display: inline-block;
+    width: 600px;
+}
+.about-image {
+    padding-left: 50px;
+    display: inline-block;
+    margin-bottom: 90px;
+    border-radius: 50%;
+   
+}
+.about-image img{
+    border-radius: 50%;
+    box-shadow: -6px 10px #edf7fa;
 }
 .main-text{
-    font-size: 54px;
+    font-size: 40px;
     font-weight: bold;
 }
 .sub-text{
-    color: darkgray;
     margin-top: 30px;
-    font-size: 24px;
+    font-size: 20px;
+    margin-bottom: 50px;
 }
-
 .btn {
     background: #ff6464;
-    padding: 20px 30px;
+    padding: 15px 25px;
     border: none;
     border-radius: 3px;
-    margin-top: 40px;
+   
     color: white;
     font-weight: bold;
     width:250px;
     font-size: larger;
 }
 .posts{
-    padding: 40px 180px;
+    padding: 20px 180px;
     background: #edf7fa;
-    height: 70vh;
+    height: 65vh;
 }
 .upper{
-    padding-top: ;
-    display: flex;
-    justify-content: space-between;
 }
 .recent {
     color: #2d3048;
     font-weight: bold;
+    display: inline-block;
+    margin-bottom: 16px;
+    font-size: larger;
+}
+.view {
+    display: inline-block;
+    float: right;
+    font-size: larger;
 }
 .view a{
     color: #21b3d2;
 }
 .card-container{
-    display: flex;
-    margin-top: 20px;
+ 
 }
 .card{
     background: white;
-    padding: 20px 20px;
+    padding: 10px 10px;
     border-radius: 2px;
     font-size: 20px;
+    width: 49%;
 }
 .card1{
-    margin-right: 8px;
+    display: inline-block;
 }
 .card2{
-    margin-left: 8px;
+    float: right;
 }
 .card-header{
     font-size: 28px;
@@ -98,7 +107,7 @@ a{
     padding: 30px 0;
 }
 .card-date {
-    color: darkgray;
+    color: #3c3f55;
 }
 .card-text{
     color: #2a2d45;
@@ -110,38 +119,50 @@ a{
 .featured{
     color: #2d3048;
     font-weight: bold;
+    padding-top: 10px;
+    font-size: larger;
 }
 .work-posts {
-    display:flex;
-    padding: 20px 0;
+    padding-top: 40px;
+    margin-bottom: 40px;
+}
+.work-image{
+    width: 20%;
+    float: left;
 }
 .about-work{
-    margin-left: 16px;
+    margin-left: 20px;
+    display: inline-block;
+    width: 70%;
+    margin-left: 60px;
+}
+.work-text{
+   margin-top:4px;
 }
 hr{
     background-color: #efefef;
     border: none;
-    height: 1px;
+    height: 2px;
 }
 h3{
     color: #21243d;
 }
 .info {
-    display: flex;
     padding: 20px 5px;
+    margin-top: 25px;
 }
 .year{
     background: #142850;
     color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 2px 6px;
+    padding: 4px 8px;
     border-radius: 16px;
+    float: left;
 }
 .tag {
+    padding-left: 7%;
     color: darkgray;
     margin-left: 30px;
+    margin-top: 2px;
 }
 .work-text{
     padding-top: 15px;
@@ -158,14 +179,13 @@ h3{
 }
 .footer-links{
     width: 300px;
-    display: flex;
-    justify-content: space-between;
-  
+   display: inline-block;
 }
 .footer-links img{
     height: 30px;
-
+    padding: 0px 20px;
 }
+
 .copyright{
     padding: 20px 0;
 }
