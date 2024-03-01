@@ -1,4 +1,6 @@
 # portfolioProject
+
 # languages used:
-HTMl and CSS
+HTML and CSS
+
 **GitHub pages URL:** [Portfolio](https://aksharbisht.github.io/portfolioProject/)
