@@ -4,9 +4,7 @@
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
-body{
-   
-}
+
 .nav{
     margin-top: 30px;
 }
@@ -36,7 +34,10 @@ a{
     padding-left: 50px;
     display: inline-block;
     margin-bottom: 90px;
+    margin-left: 32px;
     border-radius: 50%;
+    position: relative;
+    left: 10px;
    
 }
 .about-image img{
@@ -49,7 +50,7 @@ a{
 }
 .sub-text{
     margin-top: 30px;
-    font-size: 20px;
+    font-size: 18px;
     margin-bottom: 50px;
 }
 .btn {
@@ -68,13 +69,12 @@ a{
     background: #edf7fa;
     height: 65vh;
 }
-.upper{
-}
+
 .recent {
     color: #2d3048;
     font-weight: bold;
     display: inline-block;
-    margin-bottom: 16px;
+
     font-size: larger;
 }
 .view {
@@ -85,15 +85,14 @@ a{
 .view a{
     color: #21b3d2;
 }
-.card-container{
- 
-}
+
 .card{
+    margin-top: 20px;
     background: white;
-    padding: 10px 10px;
-    border-radius: 2px;
-    font-size: 20px;
-    width: 49%;
+    padding: 30px 10px;
+    border-radius: 5px;
+    font-size: 18px;
+    width: 49%;;
 }
 .card1{
     display: inline-block;
@@ -104,26 +103,28 @@ a{
 .card-header{
     font-size: 28px;
     font-weight: bold;
-    padding: 30px 0;
+    line-height: 150%;;
 }
 .card-date {
     color: #3c3f55;
+    margin-top: 20px;
 }
 .card-text{
     color: #2a2d45;
     padding-top: 20px;
+    line-height: 150%;
 }
 .featured-works{
     padding: 20px 180px;
+    padding-bottom: 10px;
 }
 .featured{
     color: #2d3048;
     font-weight: bold;
-    padding-top: 10px;
     font-size: larger;
 }
 .work-posts {
-    padding-top: 40px;
+    padding-top: 20px;
     margin-bottom: 40px;
 }
 .work-image{
@@ -131,44 +132,49 @@ a{
     float: left;
 }
 .about-work{
-    margin-left: 20px;
+    margin-left: 30px;
+    padding-left: 10px;
     display: inline-block;
     width: 70%;
     margin-left: 60px;
 }
 .work-text{
-   margin-top:4px;
+   margin-top:20px;
 }
 hr{
     background-color: #efefef;
     border: none;
     height: 2px;
+    margin-top: -25px;
 }
 h3{
     color: #21243d;
 }
 .info {
-    padding: 20px 5px;
-    margin-top: 25px;
+    padding: 15px 5px;
+    margin-top: 20px;
 }
 .year{
     background: #142850;
+    width: 64px;
     color: white;
-    padding: 4px 8px;
+    padding: 2px 14px;
     border-radius: 16px;
     float: left;
+    text-align: center;
 }
 .tag {
     padding-left: 7%;
-    color: darkgray;
+    color: #95a2af;
     margin-left: 30px;
     margin-top: 2px;
 }
 .work-text{
-    padding-top: 15px;
+    padding-top: 5px;
+    font-size: 18px;
 }
 .works{
-    padding: 40px 0;
+    padding: 20px 0;
 }
 .footer{
     display: flex;
